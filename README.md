@@ -113,3 +113,7 @@ For debugging .NET application we must install `omnisharp` plugin on vscode.
 }
 ```
 
+Now we can go to `Debug` tab and debug one or all our applications we already definded in `launch.json` file.
+!(How to debug multiple projects in vscode)[https://github.com/imaun/vscode-mutliple-project/blob/master/assets/debug.png]
+
+----
