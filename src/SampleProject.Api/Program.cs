@@ -1,3 +1,5 @@
+using SampleProject.Lib;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +10,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+var sample = new SampleClass();
+sample.Echo();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -23,3 +28,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+Console.WriteLine("Api is running!");

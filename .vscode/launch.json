@@ -1,0 +1,36 @@
+{
+    "configurations": [
+    {
+        "name": "Api",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask":  "build Api",
+        "program": "${workspaceFolder}/src/SampleProject.Api/bin/Debug/net6.0/SampleProject.Api.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/src/SampleProject.Api",
+        "stopAtEntry": false,
+        "console": "externalTerminal"
+    },
+    {
+        "name": "Console",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build Console",
+        "program": "${workspaceFolder}/src/SampleProject.Console/bin/Debug/net6.0/SampleProject.Console.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/src/SampleProject.Console",
+        "stopAtEntry": false,
+        "console": "integratedTerminal"
+    }],
+    "compounds": [
+        {
+            "name": "Debug All",
+            "configurations": [
+                "Api",
+                "Console"
+            ]
+        }
+    ]
+}
+
+

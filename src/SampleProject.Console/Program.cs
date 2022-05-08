@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using SampleProject.Lib;
+
+var sample = new SampleClass();
+sample.Echo();
+
 Console.WriteLine("Hello, World!");
+Console.WriteLine("Presse any key to exit!");
+Console.ReadKey();
