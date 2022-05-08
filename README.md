@@ -16,8 +16,8 @@ Suppose we have mutliple projects with a structure like this :
 Note that we don't have a solution file here. But with a solution, it's not very different.
 
 - Create a directory named `.vsocde` in your working directory root.
-- Create a file inside `.vscode` and name it `tasks.json` -> (task.json)[https://github.com/imaun/vscode-mutliple-project/blob/master/.vscode/tasks.json]
-- Create another file inside `.vscode` and name it `launch.json` -> (launch.json)[https://github.com/imaun/vscode-mutliple-project/blob/master/.vscode/tasks.json]
+- Create a file inside `.vscode` and name it `tasks.json` -> [task.json](https://github.com/imaun/vscode-mutliple-project/blob/master/.vscode/tasks.json)
+- Create another file inside `.vscode` and name it `launch.json` -> [launch.json](https://github.com/imaun/vscode-mutliple-project/blob/master/.vscode/tasks.json)
 
 For debugging .NET application we must install `omnisharp` plugin on vscode.
 
